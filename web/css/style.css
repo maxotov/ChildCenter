@@ -1,0 +1,227 @@
+body
+{
+    background-color: #151424;
+    /**position: fixed;*/
+    /**filter:alpha(opacity=50,Style=0);-moz-opacity:0.65;opacity:0.65;*/
+    /**width: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+    background-repeat: no-repeat no-repeat;**/
+    background: #ffffff repeat-y top center;
+    /**background-image: url('../images/body.jpg');**/
+    /**background-attachment: fixed;
+    background-repeat: repeat-x;*/
+    color: #646464;
+    font-family: Academy KZ;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.for_banner {
+    margin-top: -15px;
+    margin-left: 577px;
+
+}
+.for_menu{
+    width: 940px;
+}
+.maindiv
+{
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1123px;
+}
+
+.for_error{
+    color: red;
+}
+#check_order{
+    color: brown;
+    font-size: 14px;
+}
+.div_block {
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE 5.5+*/
+    -moz-opacity: 0.5; /* Mozilla 1.6 и ниже */
+    -khtml-opacity: 0.5; /* Konqueror 3.1, Safari 1.1 */
+    opacity: 1; /* CSS3 – Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+
+}
+.main_table{
+    border: 0px solid black;
+    border-collapse: collapse;
+    
+}
+.second_table{
+    border: 0px solid black;
+    border-collapse: collapse;
+    margin-left: 76px;
+}
+.order_table{
+    border: 0px solid black;
+    border-collapse: collapse;
+    margin-left: 4px;
+}
+.for_span{
+    color:#cd0a0a;
+}
+.for_a{
+    color:#cd0a0a;
+}
+
+.layer {
+    overflow-x: hidden;
+    width: 60%;
+    height: 62%;
+    padding: 5px;
+    border: solid 1px silver;
+}
+
+.otzivStyle{
+    border:solid 1px #cccccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.scrollup{
+    width:45px;
+    height:47px;
+    opacity:1;
+    position:fixed;
+    bottom:50px;
+    right:22px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../images/icon_top.png') no-repeat;
+}
+
+.leftblog{
+    border:solid 1px #F9CC55;
+    background-color: #F9CC55;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+}
+
+.news_date_sm {
+    font-size: 10px;
+    color: #6b6b6b;
+}
+
+
+#toggle-view {
+    list-style:none;    
+    font-family:arial;
+    font-size:11px;
+    margin:0;
+    padding:0;
+    width:600px;
+}
+#toggle-view li {
+    margin:10px;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    cursor:pointer;
+}
+
+#toggle-view h3 {
+    margin:0;
+    font-size:14px;
+}
+#toggle-view span {
+    position:absolute;
+    right:5px; top:0;
+    color:#ccc;
+    font-size:13px;
+}
+
+#toggle-view .panel {
+    margin:5px 0;
+    display:none;
+    background-color: antiquewhite;
+    font-size: 14px;
+} 
+
+.newsStyle{
+    border:solid 1px #cccccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.comment_line {
+    border-bottom: #cbcbcb 1px dashed;
+    font-size: 14px;
+}
+
+#read_more:hover {
+    text-decoration: none;
+}
+
+#newsBlog:hover {
+    background-color: whitesmoke;
+}
+
+.sanatoryBlog{
+    border:solid 1px #cccccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 1016px;
+}
+
+.orderRoomBlog{
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 228px;
+    margin-top: 54px;
+    width: 100%;
+    margin-left: -5px;
+}
+
+.loading-bar {
+    display: block;
+    text-align: center;
+    box-shadow: inset 0px -45px 30px -40px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: "museo-sans", sans-serif;
+    border: 1px solid #ddd;
+    margin-right: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.loading-bar:hover {
+    box-shadow: inset 0px 45px 30px -40px rgba(0, 0, 0, 0.05);
+}
+
+.advice_icon{
+      float: left;
+  margin: 0px 15px 0px 10px;
+}
+
+.advice_clear {
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  padding-bottom: 5px;
+}
+
+.law_clear {
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
